@@ -80,7 +80,7 @@ div {
   padding: 2px;
 }
 
-.typed-value {
+#typed-value {
   text-align: left;
   word-wrap: break-word;
   border: 2px;
