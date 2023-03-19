@@ -16,7 +16,7 @@ let startTime = Date.now();
 // page elements
 const quoteElement = document.getElementById("quote");
 const messageElement = document.getElementById("message");
-const typedValueElement = document.getElementById("typed-value");
+const typedValueElement = document.getElementById(".typed-value");
 
 // at the end of script.js
 document.getElementById("start").addEventListener("click", () => {

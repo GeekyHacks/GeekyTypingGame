@@ -1,22 +1,23 @@
 body {
   background-image: linear-gradient(236deg, #7494eb, #2e429c);
- 
 }
 
-main{
+main {
   align-self: center;
-    display: inline;
-    align-items: center;
-    justify-content: center;
-    box-sizing: border-box;
-
+  display: inline;
+  align-items: center;
+  justify-content: center;
+  box-sizing: border-box;
 }
 
-h1, p{
-align-self: center;
-align-items: center;
-align-content: center;
-
+h1,
+p {
+  text-align: center;
+  align-self: center;
+  align-items: center;
+  align-content: center;
+  margin-left: auto;
+  margin-right: auto;
 }
 .container {
   border: 1px;
@@ -26,11 +27,13 @@ align-content: center;
   width: 500px;
   height: 250px;
   position: relative;
-  margin: 2px 1px 2px 1px;
+  margin-left: auto;
+  margin-right: auto;
   padding: 2px;
 }
 
 #quote {
+  text-align: center;
   background-color: antiquewhite;
   align-items: center;
   border: 1px;
@@ -38,10 +41,14 @@ align-content: center;
   border-color: bisque;
   width: 90%;
   height: 30%;
-  margin: 2px 1px 2px 1px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 3px;
+  margin-bottom: 2px;
   padding: 2px;
 }
 #message {
+  text-align: center;
   background-color: rgb(206, 186, 183);
 
   color: red;
@@ -50,38 +57,48 @@ align-content: center;
   border-color: bisque;
   width: 50%;
   height: 20%;
-  margin: 2px 1px 2px 1px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 5px;
+  margin-bottom: 5px;
   padding: 2px;
 }
 
 div {
   background-color: #a39b9a;
   color: #181110;
-align-items: center;
+  align-items: center;
   border: 2px;
   border-radius: 2px;
   border-color: gray;
   width: 99%;
   height: 35%;
-  margin: 20px 1px 2px 1px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 18px;
+  margin-bottom: 5px;
   padding: 2px;
 }
 
-#typed-value {
-    align-self: center;
+.typed-value {
+  text-align: left;
+  word-wrap: break-word;
   border: 2px;
   border-radius: 2px;
   border-color: gray;
-  overflow-wrap: normal;
+
   width: 87%;
   height: 85%;
-  margin: 4.7px 1px 2px 1px;
-  padding: 2px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 5px;
+  margin-bottom: 5px;
   outline: none;
 }
 
 #start {
-    align-self: center;
+  text-align: center;
+  align-self: center;
   background-color: #7494eb;
   width: 10%;
   height: 88%;
