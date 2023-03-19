@@ -1,0 +1,100 @@
+
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+body {
+  background-image: linear-gradient(236deg, #7494eb, #2e429c);
+
+  justify-content: center;
+}
+
+.container {
+  border: 1px;
+  border-radius: 2px;
+  border-color: bisque;
+  background-color: #acb6e5;
+  width: 600px;
+  height: 250px;
+  position: relative;
+  display: block;
+  align-self: center;
+  margin-bottom: 10px;
+  padding: 3px;
+}
+
+#quote {
+  align-self: baseline;
+  background-color: antiquewhite;
+  align-items: center;
+  align-content: center;
+  border: 1px;
+  border-radius: 2px;
+  border-color: bisque;
+  width: 90%;
+  height: 35%;
+  margin: 10px 2px 5px 2px;
+  padding: 2.5px;
+}
+#message {
+  align-self: center;
+  background-color: rgb(206, 186, 183);
+  align-items: center;
+  align-content: center;
+
+  color: red;
+  border: 1px;
+  border-radius: 2px;
+  border-color: bisque;
+  width: 50%;
+  height: 20%;
+  margin: 5px 2px 5px 2px;
+  padding: 2.5px;
+}
+
+div {
+  background-color: #a39b9a;
+  color: #181110;
+
+  border: 2px;
+  border-radius: 2px;
+  border-color: gray;
+  width: 99%;
+  height: 35%;
+  margin: 5px 1px 5px 1px;
+  padding: 2px;
+}
+
+#typed-value {
+  border: 2px;
+  border-radius: 2px;
+  border-color: gray;
+  overflow-wrap: normal;
+  width: 87%;
+  height: 85%;
+  margin: 5px 1px 5px 1px;
+  padding: 2px;
+  outline: none;
+}
+
+#start {
+  background-color: #7494eb;
+  width: 10%;
+  height: 88%;
+  margin: 5px 1px 5px 1px;
+  padding: 2px;
+
+  border-radius: 2px;
+  border-color: gray;
+}
+.highlight {
+  background-color: yellow;
+}
+
+.error {
+  background-color: lightcoral;
+  border: red;
+}
